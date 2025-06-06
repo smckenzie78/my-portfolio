@@ -7,7 +7,7 @@ import React, { Component } from "react";
 
 export default function Home(){
     return (
-        <main className="h-[100vh] w-full flex flex-col mx-20 justify-center">
+        <main className="h-[100vh] w-full flex flex-col mx-20 justify-center overflow-y-hidden">
             
             <div className="h-[90%] w-full flex gap-40 items-center">
                 <div className="bg-white h-full w-[33%] relative" style={{borderRadius: '32px', overflow: 'hidden'}}>
