@@ -6,16 +6,16 @@ import Navbar from "./_components/navbar/navbar";
 
 export const poppins = Poppins({
   subsets: ["latin"],
-  weight: ['200','300','400', '500', '600', '700']
+  weight: ['200','300','400', '500', '600', '700', '800', '900']
 });
 export const opensans = Open_Sans({
   subsets: ["latin"],
-  weight: ['300','400', '500', '600', '700']
+  weight: ['300','400', '500', '600', '700', '800']
 });
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import Template from "./template";
+
 config.autoAddCss = false
 
 /*export const metadata = {

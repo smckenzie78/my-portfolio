@@ -9,8 +9,8 @@ export default function Contact(){
     return (
         <>
             <div className="flex flex-col items-center mt-10 w-full">
-                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[700] text-[46px] z-1`}>Contact<span className="text-cyan-600"> Me</span></h1>
-                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[700] text-[#303030] text-[80px] absolute z-0`}>Contact</h1>
+                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[900] text-[52px] z-1`}>Contact<span className="text-cyan-600"> Me</span></h1>
+                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[900] text-[#303030] text-[80px] absolute z-0`}>Contact</h1>
             </div>
             <div className="h-[80vh] flex w-full justify-center mt-20 gap-20 ">
                 <div className="flex flex-col w-[350px] gap-5">
@@ -19,7 +19,7 @@ export default function Contact(){
                 </div>
                 <div className="flex flex-col w-[700px] gap-3 ">
                     <div className="bg-[#303030] rounded-xl w-[50%] h-[50px] text-[#a8a8a8] flex flex-col">
-                        <input type="text" placeholder="YOUR EMAIL" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>
+                        <input type="email" placeholder="YOUR EMAIL" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>
                     </div>
                     <div className="bg-[#303030] rounded-xl w-[100%] h-[50px] text-[#a8a8a8] flex flex-col">
                         <input type="text" placeholder="YOUR SUBJECT" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>

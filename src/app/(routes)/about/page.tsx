@@ -9,8 +9,8 @@ export default function About(){
     return (
         <>
             <div className="flex flex-col items-center mt-10 w-full">
-                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[700] text-[46px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
-                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[700] text-[#303030] text-[80px] absolute z-0`}>About Me</h1>
+                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[900] text-[52px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
+                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[900] text-[#303030] text-[80px] absolute z-0`}>About Me</h1>
             </div>
             <div className="h-[380px] flex w-full justify-center">
                 <div className="w-[630px] h-[380px] leading-10 py-15 px-15">
