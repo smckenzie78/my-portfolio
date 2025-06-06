@@ -5,6 +5,12 @@
   --background: #171717;
 }
 
+html,body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
 body {
     overflow-x: hidden;
     background: var(--background);

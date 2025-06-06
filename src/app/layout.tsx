@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import "./global.css";
 import { Poppins } from "next/font/google";
 import { Open_Sans } from "next/font/google";
+import Navbar from "./_components/navbar/navbar";
 
 export const poppins = Poppins({
   subsets: ["latin"],
-  weight: ['300','400', '500', '600', '700']
+  weight: ['200','300','400', '500', '600', '700']
 });
 export const opensans = Open_Sans({
   subsets: ["latin"],
@@ -30,9 +31,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        <Template>
+        
           {children}
-        </Template>
+        
+        <div id="navbar" className="fixed top-0 right-[3%]">
+          <Navbar />
+        </div>
       </body>
     </html>
   )

@@ -1,6 +1,5 @@
 'use client'
 import React from "react";
-import Navbar from "@/app/_components/navbar/navbar";
 import { poppins } from "@/app/layout";
 import { opensans } from "@/app/layout";
 import ExperienceCard from "@/app/_components/experienceCard/experienceCard";
@@ -9,29 +8,53 @@ import ExperienceCard from "@/app/_components/experienceCard/experienceCard";
 export default function About(){
     return (
         <>
-            <div className="h-[40%] flex flex-col items-center">
-                <h1 className={`${poppins.className} uppercase text-right leading-15 font-[700] text-[46px] mt-10 z-1`}>About<span className="text-cyan-600"> Me</span></h1>
-                <h1 className={`${poppins.className} uppercase text-right leading-15 font-[700] text-[#303030] text-[80px] mt-10 absolute z-0`}>About Me</h1>
-                <div className="h-[100%] flex w-full justify-center">
-                    <div className="w-[30%] py-25 leading-10 px-15">
-                        <h1 className={`${poppins.className} uppercase text-center text-2xl leading-15 font-[600]`}>My Info</h1>
-                        <div className="flex justify-between">
-                            <div><p><span className="text-[#a8a8a8]">First Name:</span> Sacha</p><p><span className="text-[#a8a8a8]">Last Name:</span> McKenzie</p></div>
-                            <div className="text-right"><p><span className="text-[#a8a8a8]">Location:</span> Florida, United States</p><p><span className="text-[#a8a8a8]">Email:</span> smckenzieuk@gmail.com</p></div>
-                        </div>
-                        <p className="text-center "><span className="text-[#a8a8a8]">Hobbies:</span> Running, Gym, Gaming, Traveling</p>
+            <div className="flex flex-col items-center mt-10 w-full">
+                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[700] text-[46px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
+                <h1 className={`${poppins.className} uppercase text-center leading-15 font-[700] text-[#303030] text-[80px] absolute z-0`}>About Me</h1>
+            </div>
+            <div className="h-[380px] flex w-full justify-center">
+                <div className="w-[630px] h-[380px] leading-10 py-15 px-15">
+                    <h1 className={`${poppins.className} uppercase text-center text-2xl leading-15 font-[600]`}>My Info</h1>
+                    <div className="flex justify-between">
+                        <div><p><span className="text-[#a8a8a8]">First Name:</span> Sacha</p><p><span className="text-[#a8a8a8]">Last Name:</span> McKenzie</p></div>
+                        <div className="text-right"><p><span className="text-[#a8a8a8]">Location:</span> Florida, United States</p><p><span className="text-[#a8a8a8]">Email:</span> smckenzieuk@gmail.com</p></div>
                     </div>
-                    <div className="w-[30%] grid grid-cols-2 gap-4 px-5 py-15">
-                        <div className="border-1 border-[#565656] rounded-xl"></div>
-                        <div className="border-1 border-[#565656] rounded-xl"></div>
-                        <div className="border-1 border-[#565656] rounded-xl"></div>
-                        <div className="border-1 border-[#565656] rounded-xl"></div>
+                        <p className="text-center "><span className="text-[#a8a8a8]">Hobbies:</span> Running, Gym, Gaming, Traveling</p>
+                </div>
+                <div className="w-[550px] h-[380px] grid grid-cols-2 gap-4 px-5 pt-15">
+                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
+                        <h1 className={`${poppins.className} uppercase text-cyan-600 text-5xl leading-15 font-[700]`}>2+</h1>
+                        <div className="flex gap-2">
+                            <h2 className={`${poppins.className} uppercase`}>—</h2>
+                            <h2 className={`${poppins.className} uppercase`}>Years of<br/>experience</h2>
+                        </div> 
+                    </div>
+                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
+                        <h1 className={`${poppins.className} text-cyan-600 text-5xl leading-15 font-[700]`}>React</h1>
+                        <div className="flex gap-2">
+                            <h2 className={`${poppins.className} uppercase`}>—</h2>
+                            <h2 className={`${poppins.className} uppercase`}>Next.js<br/>TypeScript</h2>
+                        </div> 
+                    </div>
+                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
+                        <h1 className={`${poppins.className} text-cyan-600 text-5xl leading-15 font-[700]`}>Azure</h1>
+                        <div className="flex gap-2">
+                            <h2 className={`${poppins.className} uppercase`}>—</h2>
+                            <h2 className={`${poppins.className} uppercase`}>Webapps<br/>DEVOPS, PIPELINES</h2>
+                        </div> 
+                    </div>
+                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
+                        <h1 className={`${poppins.className} uppercase text-cyan-600 text-5xl leading-15 font-[700]`}>SQL</h1>
+                        <div className="flex gap-2">
+                            <h2 className={`${poppins.className} uppercase`}>—</h2>
+                            <h2 className={`${poppins.className} uppercase`}>Postgresql<br/>api integration</h2>
+                        </div> 
                     </div>
                 </div>
-            </div>
-            <div className="h-[60%] w-full flex flex-col justify-center mb-20">
-                <div className="flex justify-around h-[80%] w-[70%] px-10 self-center">
-                    <div className="flex flex-col gap-5 w-[35%]">
+            </div> 
+            <div className="h-[60%] w-full flex flex-col justify-center mt-30">
+                <div className="flex justify-between h-[80%] w-[70%] self-center">
+                    <div className="flex flex-col gap-5 w-[500px]">
                         <h1 className={`${poppins.className} uppercase text-center text-2xl leading-15 font-[600]`}>Experience</h1>
                         <ExperienceCard 
                             duration="dec 2024 — present"
@@ -52,7 +75,7 @@ export default function About(){
                             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sapien id nisi faucibus varius eget vel eros. Maecenas vestibulum ex risus. Sed consectetur diam id nisl maximus congue."
                         />
                     </div>
-                    <div className="flex flex-col gap-5 w-[35%]">
+                    <div className="flex flex-col gap-5 w-[500px]">
                         <h1 className={`${poppins.className} uppercase text-center text-2xl leading-15 font-[600]`}>Education</h1>
                         <ExperienceCard 
                             duration="MAY 2023"
@@ -62,9 +85,7 @@ export default function About(){
                         />
                     </div>
                 </div>
-                <div id="navbar" className="fixed top-0 right-[3%]">
-                    <Navbar />
-                </div>
+                
             </div>
         </>
     );
