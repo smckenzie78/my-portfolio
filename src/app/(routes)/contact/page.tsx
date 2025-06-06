@@ -1,5 +1,3 @@
-'use client'
-import Navbar from "@/app/_components/navbar/navbar";
 import { poppins } from "@/app/layout";
 import { opensans } from "@/app/layout";
 import FillButton from "@/app/_components/fillButton/fillButton";
@@ -17,23 +15,25 @@ export default function Contact(){
                     <h1 className={`${poppins.className} uppercase text-2xl font-[600]`}>Be not afraid</h1>
                     <p>Looking for a partner who can bring fresh ideas to your projects? I'm the developer you need! I'm always excited to hear about new projects and explore how I can contribute to your success. Don't hesitate to reach out to me and let's collaborate to make your visions a reality. Contact me today and let's get started!</p>
                 </div>
-                <div className="flex flex-col w-[700px] gap-3 ">
-                    <div className="bg-[#303030] rounded-xl w-[50%] h-[50px] text-[#a8a8a8] flex flex-col">
-                        <input type="email" placeholder="YOUR EMAIL" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>
-                    </div>
-                    <div className="bg-[#303030] rounded-xl w-[100%] h-[50px] text-[#a8a8a8] flex flex-col">
-                        <input type="text" placeholder="YOUR SUBJECT" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>
-                    </div>
-                    <div className=" rounded-xl w-[100%] h-[300px] text-[#a8a8a8] flex flex-col">
-                        <textarea placeholder="YOUR MESSAGE" className={`${poppins.className} bg-[#303030] h-[100%] rounded-lg px-7 py-5 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600 resize-none`}></textarea>
-                        <div className="border-1 border-cyan-600 h-[55px] w-[45%] rounded-full mt-5">
-                            <FillButton 
-                            text="Send Message"
-                            function="email"
-                            />
+                <form action="https://formsubmit.co/42c9d218a7a4af3310c80e800d6673bd" method="POST">
+                    <div className="flex flex-col w-[700px] gap-3 ">
+                        <div className="bg-[#303030] rounded-xl w-[50%] h-[50px] text-[#a8a8a8] flex flex-col">
+                            <input type="email" name="email" placeholder="YOUR EMAIL" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>
+                        </div>
+                        <div className="bg-[#303030] rounded-xl w-[100%] h-[50px] text-[#a8a8a8] flex flex-col">
+                            <input type="text" name="_subject" placeholder="YOUR SUBJECT" className={`${poppins.className} h-[100%] rounded-xl px-7 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600`}></input>
+                        </div>
+                        <div className=" rounded-xl w-[100%] h-[300px] text-[#a8a8a8] flex flex-col">
+                            <textarea name="message" placeholder="YOUR MESSAGE" className={`${poppins.className} bg-[#303030] h-[100%] rounded-lg px-7 py-5 font-[200] outline-[0px] focus:outline-[1px] focus:outline-cyan-600 resize-none`}></textarea>
+                            <div className="border-1 border-cyan-600 h-[55px] w-[45%] rounded-full mt-5">
+                                <FillButton 
+                                text="Send Message"
+                                function="email"
+                                />
+                            </div> 
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </>
     );

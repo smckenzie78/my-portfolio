@@ -30,10 +30,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >
-        
-          {children}
-        
+      <body>
+        {children}
         <div id="navbar" className="fixed top-0 right-[3%]">
           <Navbar />
         </div>
