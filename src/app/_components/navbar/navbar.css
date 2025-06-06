@@ -1,0 +1,27 @@
+.buttonclass  {
+  max-width: 50px;
+  -webkit-transition: max-width .5s;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.buttonclass span {
+    position: absolute;
+    left:20%;
+    opacity: 0;
+    transition: opacity .5s, visibility 0s;
+}
+
+.buttonclass:hover  {
+  max-width: 150px;
+  justify-content: end;
+}
+
+.buttonclass:hover span{
+  opacity: 100;
+  visibility: visible;
+}

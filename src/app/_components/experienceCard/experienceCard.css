@@ -1,0 +1,19 @@
+.bulletpoint {
+  position: relative; /* Needed for positioning the pseudo-element */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: oklch(60.9% 0.126 221.723); /* Or any desired color */
+}
+
+.bulletpoint::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Position below the circle */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for perfect centering */
+  width: .5px; /* Line width */
+  height: 40px; /* Line height */
+  background-color: #565656 ;
+  /*#4f4f4f  Or any desired color */
+}
