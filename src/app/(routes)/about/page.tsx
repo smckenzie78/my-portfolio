@@ -1,7 +1,6 @@
 'use client'
 import React from "react";
 import { poppins } from "@/app/layout";
-import { opensans } from "@/app/layout";
 import ExperienceCard from "@/app/_components/experienceCard/experienceCard";
 
 
