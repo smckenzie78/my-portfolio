@@ -1,9 +1,8 @@
 'use client'
 import { poppins } from "@/app/layout";
 import { opensans } from "@/app/layout";
-import Image from "next/image";
 import DownloadButton from "@/app/_components/downloadButton/downloadButton";
-import React, { Component } from "react";
+
 
 export default function Home(){
     return (
