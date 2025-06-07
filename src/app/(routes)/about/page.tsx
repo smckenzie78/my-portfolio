@@ -12,7 +12,7 @@ export default function About(){
                 <h1 className={`${poppins.className} uppercase text-center leading-15 font-[900] text-[#303030] text-[80px] absolute z-0`}>About Me</h1>
             </div>
             <div className="h-[380px] flex w-full justify-center">
-                <div className="w-[630px] h-[380px] leading-10 py-15 px-15">
+                <div className="w-[630px] h-[380px] leading-15 py-15 px-15">
                     <h1 className={`${poppins.className} uppercase text-center text-2xl leading-15 font-[600]`}>My Info</h1>
                     <div className="flex justify-between">
                         <div><p><span className="text-[#a8a8a8]">First Name:</span> Sacha</p><p><span className="text-[#a8a8a8]">Last Name:</span> McKenzie</p></div>
@@ -52,7 +52,7 @@ export default function About(){
                 </div>
             </div> 
             <div className="h-[60%] w-full flex flex-col justify-center mt-30">
-                <div className="flex justify-between h-[80%] w-[70%] self-center">
+                <div className="flex justify-around h-[80%] w-[70%] self-center">
                     <div className="flex flex-col gap-5 w-[500px]">
                         <h1 className={`${poppins.className} uppercase text-center text-2xl leading-15 font-[600]`}>Experience</h1>
                         <ExperienceCard 

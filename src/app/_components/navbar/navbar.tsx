@@ -14,13 +14,13 @@ export default function Navbar(){
                     <FontAwesomeIcon icon={faHouse} className='icon'/>
                 </div>
             </Link>
-            <Link href={{pathname: '/about'}}>
+            <Link href={{pathname: './about'}}>
                 <div className={`buttonclass bg-cyan-600 p-4 rounded-full text-2xl flex items-center justify-between h-[50px] w-[200px] text-gray-200 hover:text-white absolute right-0`}>
                     <span className={`${poppins.className} font-[600] text-sm uppercase`}>About</span>
                     <FontAwesomeIcon icon={faUser} />
                 </div>
             </Link>
-            <Link href={{pathname: '/contact'}}>
+            <Link href={{pathname: './contact'}}>
                 <div className={`buttonclass bg-cyan-600 p-4 rounded-full text-2xl flex items-center justify-between h-[50px] w-[200px] text-gray-200 hover:text-white absolute right-0`}>
                     <span className={`${poppins.className} font-[600] text-sm uppercase`}>Contact</span>
                     <FontAwesomeIcon icon={faPaperPlane} />
