@@ -1,6 +1,4 @@
-'use client'
 import { poppins } from "@/app/layout";
-import { opensans } from "@/app/layout";
 import DownloadButton from "@/app/_components/downloadButton/downloadButton";
 
 
@@ -21,7 +19,7 @@ export default function Home(){
                         <br/>
                         Software Developer
                     </h1>
-                    <p className={`${opensans.className} leading-8 text-[16px]`}>I'm a United States based software developer with a knack for problem solving and a passion for programming. I enjoy delivering real value through my work.</p>
+                    <p className={`${poppins.className} leading-8 text-[16px]`}>I'm a United States based software developer with a knack for problem solving and a passion for programming. I enjoy delivering real value through my work.</p>
                     <div className="uppercase flex justify-center items-center border-1 border-cyan-600 h-[55px] w-[300px] rounded-full">
                         <DownloadButton
                             text= "Download CV"

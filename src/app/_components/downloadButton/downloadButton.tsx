@@ -1,6 +1,7 @@
 import "./downloadButton.css"
 import React, { Component } from "react";
-import { opensans } from "@/app/layout";
+import { poppins } from "@/app/layout";
+
 
 type fillButtonProps = {
     text: string
@@ -9,6 +10,6 @@ type fillButtonProps = {
 
 export default function DownloadButton(props: fillButtonProps) {
     return(
-        <a className={`liquid ${opensans.className} leading-8 font-[700] h-full w-full flex justify-center items-center rounded-full`} href={props.file} download="file.txt">{props.text}</a>
+        <a className={`liquid ${poppins.className} leading-8 font-[700] h-full w-full flex justify-center items-center rounded-full`} href={props.file} download="file.txt">{props.text}</a>
     );
 }
