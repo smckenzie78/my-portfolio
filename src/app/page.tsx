@@ -12,6 +12,7 @@ export default function Home(){
                     <img className="object-cover h-[100%] w-[100%]"
                         src="./meTemp.jpeg"
                         loading="lazy"
+                        alt="hero"
                     />
                 </div>
                 <div className=" w-[766px] flex flex-col gap-7 pr-50 ml-50">
