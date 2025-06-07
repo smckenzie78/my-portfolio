@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./global.css";
 import { Poppins } from "next/font/google";
-import { Open_Sans } from "next/font/google";
 import Navbar from "./_components/navbar/navbar";
 
-export const poppins = Poppins({
+const poppins = Poppins({
   subsets: ["latin"],
+  variable: "--poppins",
   weight: ['200','300','400', '500', '600', '700', '800', '900']
 });
 
@@ -26,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${poppins.variable} antialiased`}>
         {children}
         <div id="navbar" className="fixed top-0 right-[3%]">
           <Navbar />
