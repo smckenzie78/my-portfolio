@@ -7,51 +7,51 @@ export default function About(){
         <>
             <div className="flex flex-col items-center mt-10 w-full">
                 <h1 className={` uppercase text-center leading-15 font-[900] text-[52px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
-                <h1 className={` uppercase text-center leading-15 font-[900] text-[#303030] text-[80px] absolute z-0`}>About Me</h1>
+                <h1 className={` uppercase text-center leading-15 font-[900] text-[#303030] sm:text-[80px] text-[60px] absolute z-0`}>About Me</h1>
             </div>
-            <div className="h-[380px] flex w-full justify-center">
-                <div className="w-[630px] h-[380px] leading-12 py-15 px-15">
-                    <h1 className={` uppercase text-center text-2xl leading-15 font-[600]`}>My Info</h1>
-                    <div className="flex justify-between">
-                        <div><p><span className="text-[#a8a8a8]">First Name:</span> Sacha</p><p><span className="text-[#a8a8a8]">Last Name:</span> McKenzie</p></div>
-                        <div className="text-right"><p><span className="text-[#a8a8a8]">Location:</span> Florida, United States</p><p><span className="text-[#a8a8a8]">Email:</span> smckenzieuk@gmail.com</p></div>
+            <div className="lg:h-[380px] mt-0  w-full justify-center flex flex-col items-center h-[600px]  lg:items-start lg:flex-row xl:px-30">
+                <div className="sm:w-[630px] flex flex-col items-center lg:h-[380px] lg:leading-12 lg:py-15 lg:px-15 h-[180px] py-0 px-0 sm:leading-10 w-full">
+                    <h1 className={` uppercase text-center text-2xl lg:leading-15 font-[600] sm:leading-10`}>My Info</h1>
+                    <div className="flex sm:justify-between justify-around lg:w-full w-[90%] sm:text-[16px] text-[14px]">
+                        <div><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">First Name:</span> Sacha</p><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">Last Name:</span> McKenzie</p></div>
+                        <div className="text-right"><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">Location:</span> Florida, United States</p><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">Email:</span> smckenzieuk@gmail.com</p></div>
                     </div>
-                        <p className="text-center "><span className="text-[#a8a8a8]">Hobbies:</span> Running, Gym, Gaming, Traveling</p>
+                        <p className="flex flex-col text-center sm:block sm:text-[16px] text-[14px]"><span className="text-[#a8a8a8]">Hobbies:</span> Running, Gym, Gaming, Traveling</p>
                 </div>
-                <div className="w-[550px] h-[380px] grid grid-cols-2 gap-4 px-5 pt-15">
-                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
-                        <h1 className={` uppercase text-cyan-600 text-5xl leading-15 font-[700]`}>2+</h1>
+                <div className="lg:w-[550px] lg:h-[380px] grid grid-cols-2 gap-4 px-5 lg:pt-15 w-full pt-7">
+                    <div className="border-1 border-[#565656] rounded-xl sm:px-8 px-5 py-5">
+                        <h1 className={` uppercase text-cyan-600 sm:text-5xl text-5xl leading-15 font-[700]`}>2+</h1>
                         <div className="flex gap-2">
-                            <h2 className={` uppercase`}>—</h2>
-                            <h2 className={` uppercase`}>Years of<br/>experience</h2>
+                            <h2 className={`uppercase sm:text-[16px] text-[14px]`}>—</h2>
+                            <h2 className={`uppercase sm:text-[16px] text-[14px]`}>Years of<br/>experience</h2>
                         </div> 
                     </div>
-                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
-                        <h1 className={` text-cyan-600 text-5xl leading-15 font-[700]`}>React</h1>
+                    <div className="border-1 border-[#565656] rounded-xl sm:px-8 px-5 py-5">
+                        <h1 className={` text-cyan-600 sm:text-5xl text-4xl leading-15 font-[700]`}>React</h1>
                         <div className="flex gap-2">
-                            <h2 className={` uppercase`}>—</h2>
-                            <h2 className={` uppercase`}>Next.js<br/>TypeScript</h2>
+                            <h2 className={` uppercase sm:text-[16px] text-[14px]`}>—</h2>
+                            <h2 className={` uppercase sm:text-[16px] text-[14px]`}>Next.js<br/>TypeScript</h2>
                         </div> 
                     </div>
-                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
-                        <h1 className={` text-cyan-600 text-5xl leading-15 font-[700]`}>Azure</h1>
+                    <div className="border-1 border-[#565656] rounded-xl sm:px-8 px-5 py-5">
+                        <h1 className={` text-cyan-600 sm:text-5xl text-4xl leading-15 font-[700]`}>Azure</h1>
                         <div className="flex gap-2">
-                            <h2 className={` uppercase`}>—</h2>
-                            <h2 className={` uppercase`}>Webapps<br/>DEVOPS, PIPELINES</h2>
+                            <h2 className={`uppercase sm:text-[16px] text-[14px]`}>—</h2>
+                            <h2 className={`uppercase sm:text-[16px] text-[14px]`}>Webapps<br/>DEVOPS, PIPELINES</h2>
                         </div> 
                     </div>
-                    <div className="border-1 border-[#565656] rounded-xl px-8 py-5">
-                        <h1 className={` uppercase text-cyan-600 text-5xl leading-15 font-[700]`}>SQL</h1>
+                    <div className="border-1 border-[#565656] rounded-xl sm:px-8 px-5 py-5">
+                        <h1 className={` uppercase text-cyan-600 sm:text-5xl text-4xl leading-15 font-[700]`}>SQL</h1>
                         <div className="flex gap-2">
-                            <h2 className={` uppercase`}>—</h2>
-                            <h2 className={` uppercase`}>Postgresql<br/>api integration</h2>
+                            <h2 className={`uppercase sm:text-[16px] text-[14px]`}>—</h2>
+                            <h2 className={`uppercase sm:text-[16px] text-[14px]`}>Postgresql<br/>api integration</h2>
                         </div> 
                     </div>
                 </div>
             </div> 
-            <div className="h-[60%] w-full flex flex-col justify-center mt-30">
-                <div className="flex justify-around h-[80%] w-[70%] self-center">
-                    <div className="flex flex-col gap-5 w-[500px]">
+            <div className="h-[1500px] sm:h-[900px] w-full flex flex-col sm:justify-center mt-0">
+                <div className="flex sm:justify-around h-[80%] w-[70%] self-center lg:items-start items-center lg:flex-row flex-col">
+                    <div className="flex flex-col gap-5 sm:w-[500px]">
                         <h1 className={` uppercase text-center text-2xl leading-15 font-[600]`}>Experience</h1>
                         <ExperienceCard 
                             duration="dec 2024 — present"
@@ -72,7 +72,7 @@ export default function About(){
                             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sapien id nisi faucibus varius eget vel eros. Maecenas vestibulum ex risus. Sed consectetur diam id nisl maximus congue."
                         />
                     </div>
-                    <div className="flex flex-col gap-5 w-[500px]">
+                    <div className="flex flex-col gap-5 sm:w-[500px] lg:mt-0 mt-10">
                         <h1 className={` uppercase text-center text-2xl leading-15 font-[600]`}>Education</h1>
                         <ExperienceCard 
                             duration="MAY 2023"
