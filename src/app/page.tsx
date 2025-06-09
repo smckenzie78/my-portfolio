@@ -5,7 +5,7 @@ export default function Home(){
     return (
         <>
             <div className="flex h-[100vh] w-[100%] flex-col lg:flex-row items-center mt-10 sm:mt-0 sm:justify-center lg:justify-start lg:pl-[30px]">
-                <div className="lg:w-[700px] bg-white lg:h-[95%] w-[200px] h-[200px] relative rounded-full lg:rounded-xl border-[3px] border-[#565656] lg:border-0" style={{overflow: 'hidden'}}>
+                <div className="lg:w-[700px] bg-white lg:h-[95%] w-[200px] h-[200px] min-h-[200px] relative rounded-full lg:rounded-xl border-[3px] border-[#565656] lg:border-0" style={{overflow: 'hidden'}}>
                     <img className="object-cover h-[100%] w-[100%]"
                         src="./meTemp.jpeg"
                         loading="lazy"

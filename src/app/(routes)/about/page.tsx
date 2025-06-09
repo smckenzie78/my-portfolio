@@ -6,8 +6,8 @@ export default function About(){
     return (
         <>
             <div className="flex flex-col items-center mt-10 w-full">
-                <h1 className={` uppercase text-center leading-15 font-[900] text-[52px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
-                <h1 className={` uppercase text-center leading-15 font-[900] text-[#303030] sm:text-[80px] text-[60px] absolute z-0`}>About Me</h1>
+                <h1 className={` uppercase text-center leading-15 font-[900] lg:text-[52px] text-[40px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
+                <h1 className={` uppercase text-center leading-15 font-[900] text-[#303030] lg:text-[80px] text-[50px] absolute z-0`}>About Me</h1>
             </div>
             <div className="lg:h-[380px] mt-0  w-full justify-center flex flex-col items-center h-[800px]  lg:items-start lg:flex-row xl:px-30">
                 <div className="sm:w-[630px] flex flex-col items-center lg:h-[380px] lg:leading-12 lg:py-15 lg:px-15 h-[380px] py-0 px-0 sm:leading-10 w-full">

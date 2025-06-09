@@ -6,12 +6,12 @@ export default function Contact(){
     return (
         <>
             <div className="flex flex-col items-center mt-10 w-full">
-                <h1 className={` uppercase text-center leading-15 font-[900] lg:text-[52px] text-[40px] z-1`}>Contact<span className="text-cyan-600"> Me</span></h1>
-                <h1 className={` uppercase text-center leading-15 font-[900] text-[#303030] lg:text-[80px] text-[60px] absolute z-0`}>Contact</h1>
+                <h1 className={`uppercase text-center leading-15 font-[900] lg:text-[52px] text-[40px] z-1`}>Contact<span className="text-cyan-600"> Me</span></h1>
+                <h1 className={`uppercase text-center leading-15 font-[900] text-[#303030] lg:text-[80px] text-[60px] absolute z-0`}>Contact</h1>
             </div>
             <div className="flex lg:h-[80vh] flex-col lg:flex-row w-full justify-center lg:mt-20 mt-10 gap-10 lg:gap-20 lg:px-30 px-5">
                 <div className="flex flex-col lg:w-[350px] w-full gap-5">
-                    <h1 className={` uppercase text-2xl font-[600] lg:text-left text-center`}>Be not afraid</h1>
+                    <h1 className={`uppercase text-2xl font-[600] lg:text-left text-center`}>Be not afraid</h1>
                     <p>Looking for a partner who can bring fresh ideas to your projects? I'm the developer you need! I'm always excited to hear about new projects and explore how I can contribute to your success. Don't hesitate to reach out to me and let's collaborate to make your visions a reality. Contact me today and let's get started!</p>
                 </div>
                 <form action="https://formsubmit.co/42c9d218a7a4af3310c80e800d6673bd" method="POST">
