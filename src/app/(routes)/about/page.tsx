@@ -9,10 +9,17 @@ export default function About(){
                 <h1 className={` uppercase text-center leading-15 font-[900] text-[52px] z-1`}>About<span className="text-cyan-600"> Me</span></h1>
                 <h1 className={` uppercase text-center leading-15 font-[900] text-[#303030] sm:text-[80px] text-[60px] absolute z-0`}>About Me</h1>
             </div>
-            <div className="lg:h-[380px] mt-0  w-full justify-center flex flex-col items-center h-[600px]  lg:items-start lg:flex-row xl:px-30">
-                <div className="sm:w-[630px] flex flex-col items-center lg:h-[380px] lg:leading-12 lg:py-15 lg:px-15 h-[180px] py-0 px-0 sm:leading-10 w-full">
+            <div className="lg:h-[380px] mt-0  w-full justify-center flex flex-col items-center h-[800px]  lg:items-start lg:flex-row xl:px-30">
+                <div className="sm:w-[630px] flex flex-col items-center lg:h-[380px] lg:leading-12 lg:py-15 lg:px-15 h-[380px] py-0 px-0 sm:leading-10 w-full">
                     <h1 className={` uppercase text-center text-2xl lg:leading-15 font-[600] sm:leading-10`}>My Info</h1>
-                    <div className="flex sm:justify-between justify-around lg:w-full w-[90%] sm:text-[16px] text-[14px]">
+                    <div className="lg:w-[700px] bg-white lg:h-[95%] w-[200px] h-[200px] relative rounded-full lg:rounded-xl border-[3px] border-[#565656] lg:border-0 lg:hidden mt-4 lg:mt-0" style={{overflow: 'hidden'}}>
+                        <img className="object-cover h-[100%] w-[100%]"
+                            src="./meTemp.jpeg"
+                            loading="lazy"
+                            alt="hero"
+                        />
+                    </div>
+                    <div className="flex sm:justify-between justify-around lg:w-full w-[90%] sm:text-[16px] text-[14px] mt-4 lg:mt-0">
                         <div><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">First Name:</span> Sacha</p><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">Last Name:</span> McKenzie</p></div>
                         <div className="text-right"><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">Location:</span> Florida, United States</p><p className="flex flex-col sm:block"><span className="text-[#a8a8a8]">Email:</span> smckenzieuk@gmail.com</p></div>
                     </div>
