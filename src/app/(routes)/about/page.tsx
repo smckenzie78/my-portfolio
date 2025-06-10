@@ -64,19 +64,19 @@ export default function About(){
                             duration="dec 2024 — present"
                             title="Associate Software Engineer"
                             company="Citizens Property Insurance"
-                            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sapien id nisi faucibus varius eget vel eros. Maecenas vestibulum ex risus. Sed consectetur diam id nisl maximus congue."
+                            desc=" Contributed to a full-stack web application by developing reusable UI components and implementing RESTful API integrations to support business-critical features such as agent lookup and compliance verification."
                         />
                         <ExperienceCard 
                             duration="jul 2023 — dec 2024"
                             title="Software Engineer Intern"
                             company="Citizens Property Insurance"
-                            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sapien id nisi faucibus varius eget vel eros. Maecenas vestibulum ex risus. Sed consectetur diam id nisl maximus congue."
+                            desc="Participated in the full software development life cycle, including daily meetings, iterative development, estimations, and design sessions. Also served as a point of contact with our business partners to troubleshoot and resolve real-time production issues."
                         />
                         <ExperienceCard 
                             duration="jun 2022 — aug 2022"
                             title="IT Intern"
                             company="Kemper"
-                            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sapien id nisi faucibus varius eget vel eros. Maecenas vestibulum ex risus. Sed consectetur diam id nisl maximus congue."
+                            desc=" Collaborated with fellow interns to leverage RPA technology to automate a tedious business process as our main deliverable for the summer. We documented our RPA solution and created a user guide for future developers."
                         />
                     </div>
                     <div className="flex flex-col gap-5 sm:w-[500px] lg:mt-0 mt-10">
