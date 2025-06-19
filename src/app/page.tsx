@@ -22,7 +22,7 @@ export default function Home(){
                     <div className="uppercase flex justify-center items-center border-1 border-cyan-600 h-[55px] w-[300px] rounded-full">
                         <DownloadButton
                             text= "Download CV"
-                            file="./2025Resume.pdf"
+                            file="./2025Resume-2.pdf"
                         />
                     </div>
                 </div>
